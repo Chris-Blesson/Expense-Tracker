@@ -1,0 +1,17 @@
+.contentHeader {
+    position        : relative;
+    z-index         : 1;
+    min-height      : 4rem;
+    border-bottom   : 1px solid #e0e0e0;
+    padding         : .8rem .8rem 0;
+    background-color: #fff;
+    display         : flex;
+
+    &__title {
+        font-weight   : 600;
+        font-size     : 1.8rem;
+        color         : var(--color-grey-dark-1);
+        padding       : 5px 15px 5px;
+        text-transform: uppercase;
+    }
+}
